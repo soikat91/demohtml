@@ -1,0 +1,110 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    outline: none;
+    text-decoration: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+/*img{
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}*/
+.image-size{
+     width: 382px;
+    height:382px;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+.main-back{
+    background-color: #E3CFC3;
+    font-family: monospace;
+
+    
+}
+.heading{
+    text-align: center;
+}
+.para{
+    margin: 60px 0 0;
+}
+.para span{
+
+    font-size: 25px;
+}
+
+.price{
+    margin: 0px 0px 0px 60px;
+}
+.horizon{
+    margin: 70px 0 0;
+   padding: 0.8px;
+   background-color: #1D252D;
+}
+.btn{
+    padding: 3px 15px;
+    background-color: #1D252D;
+    color: white;
+    border-radius: 0.9rem;
+    margin: 10px 0px 0px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.flex-around-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}   
+.flex-around-space{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-basis: 60%;
+}
+
+
+/* reset code end  */
+/* navbar starts */
+#menu-icon{
+    display: none;
+}
+
+
+
+
+
+/* navbar end */
+/* header starts */
+.header{
+   
+    
+}
+.banner{
+ 
+}
+.banner_title{
+    
+    
+}
+
+main{
+    padding: 4rem 0;
+    height: 800vh;
+}
